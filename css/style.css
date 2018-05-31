@@ -10,10 +10,16 @@ h1{
   font-family: 'Arvo', serif;
   text-align: center;
 }
+
+p{
+  font-family: 'Arvo', serif;
+
+}
 .center{
   display: flex;
   justify-content: center;
 }
+
 
 .corp{
   background-image: url(../img/corp.png);
@@ -147,7 +153,7 @@ h1{
   font-family: 'Arvo', serif;
   width: 200px;
   height: 500px;
-  visibility:hidden; 
+  visibility:hidden;
 
 
 }
