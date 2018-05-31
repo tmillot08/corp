@@ -19,8 +19,6 @@ p{
   display: flex;
   justify-content: center;
 }
-
-
 .corp{
   background-image: url(../img/corp.png);
   margin-top: 70px;
@@ -28,141 +26,73 @@ p{
   width: 140px;
   height: 500px;
 }
-
-.epaule{
+.cercle{
   position: relative;
-  background-color: red;
+  background-color: black;
   border-radius:50%;
-  top: 85px;
-  right: 13px;
   width:50px;
   height:50px;
   opacity: 0.8;
 }
-  .coude{
-    position: relative;
-    background-color: red;
-    border-radius:50%;
+.epaule{
+  top: 85px;
+  right: 13px;
+}
+.coude{
     top: 100px;
     left: 100px;
-    width:50px;
-    height:50px;
-    opacity: 0.8;
 }
 
 .poignet{
-  position: relative;
-  background-color: red;
-  border-radius:50%;
   top: 106px;
   right: 13px;
-  width:50px;
-  height:50px;
-  opacity: 0.8;
 }
-
 .hanche{
-  position: relative;
-  background-color: red;
-  border-radius:50%;
   top: 88px;
   left: 71px;
-  width:50px;
-  height:50px;
-  opacity: 0.8;
 }
-
 .genou{
-  position: relative;
-  background-color: red;
-  border-radius:50%;
   top: 135px;
   right: -23px;
-  width:50px;
-  height:50px;
-  opacity: 0.8;
 }
-
 .cheville{
-  position: relative;
-  background-color: red;
-  border-radius:50%;
   top: 170px;
   left: 71px;
-  width:50px;
-  height:50px;
-  opacity: 0.8;
 }
-
-
+.txt{
+    position: absolute;
+    font-family: 'Arvo', serif;
+    width: 200px;
+    height: 500px;
+    visibility: hidden;
+}
 .epauletxt{
-  position: absolute;
   top: -89px;
   margin-left: 186px;
-  font-family: 'Arvo', serif;
-  width: 200px;
-  height: 500px;
-  visibility: hidden;
 }
-
 .coudetxt{
-  position: absolute;
   top: -153px;
   margin-left: 73px;
-  font-family: 'Arvo', serif;
-  width: 200px;
-  height: 500px;
-  visibility: hidden;
 }
-
 .poignettxt{
-  position: absolute;
   top: -210px;
   margin-left: 186px;
-  font-family: 'Arvo', serif;
-  width: 200px;
-  height: 500px;
-  visibility: hidden;
 }
-
 .hanchetxt{
-  position: absolute;
   top: -243px;
   margin-left: 102px;
-  font-family: 'Arvo', serif;
-  width: 200px;
-  height: 500px;
-  visibility: hidden;
 }
-
 .genoutxt{
-  position: absolute;
   top: -339px;
   margin-left: 150px;
-  font-family: 'Arvo', serif;
-  width: 200px;
-  height: 500px;
-  visibility:hidden;
-
 }
-
 .chevilletxt{
-  position: absolute;
   top: -424px;
   margin-left: 103px;
-  font-family: 'Arvo', serif;
-  width: 200px;
-  height: 500px;
-  visibility:hidden;
-
-
 }
-
-
 .epaule:hover .epauletxt{
   visibility:visible;
 }
-
 .coude:hover .coudetxt{
   visibility: visible;
 }
@@ -172,15 +102,12 @@ p{
 .hanche:hover .hanchetxt{
   visibility: visible;
 }
-
 .genou:hover .genoutxt{
   visibility: visible;
 }
-
 .cheville:hover .chevilletxt{
   visibility: visible;
 }
 .point:hover{
-  background-color: black
-
+  background-color: red;
 }
